@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="css-mobile">
+      <div class="mobile-body">
+        <div class="front-top">
+          <div class="reciver"></div>
+          <div class="cam"></div>
+        </div>
+        <div class="nav-bar">
+          <div class="left-time"></div>
+          <div class="right-tower">
+            <div class="main-tower">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="wifi"></div>
+            <div class="battery-bar">
+              <div class="batter-inner"></div>
+            </div>
+          </div>
+        </div>
+        <div class="dail-screen">
+          <input type="tel" for="phone" id="input__num" />
+          <a class="delete" id="delet" href="javascript:void(0)">&times;</a>
+        </div>
+        <div class="dial-pad">
+          <button class="numbers" data-number="1">1</button>
+          <button class="numbers" data-number="2">2<span>ABC</span></button>
+          <button class="numbers" data-number="3">3<span>DEF</span></button>
+          <button class="numbers" data-number="4">4<span>GHI</span></button>
+          <button class="numbers" data-number="5">5<span>JKL</span></button>
+          <button class="numbers" data-number="6">6<span>MNO</span></button>
+          <button class="numbers" data-number="7">7<span>PQRS</span></button>
+          <button class="numbers" data-number="8">8<span>TUV</span></button>
+          <button class="numbers" data-number="9">9<span>WXYZ</span></button>
+          <button class="numbers" data-number="*">*</button>
+          <button class="numbers" data-number="0">0<span>+</span></button>
+          <button class="numbers" data-number="#">#</button>
+        </div>
+        <div class="call-btn">
+          <a href="javascript:void(0)" id="phone-btn" class="numbers"
+            ><span></span
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
