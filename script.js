@@ -42,5 +42,5 @@ $(document).ready(function () {
 });
 
 $( document ).ready(function() {
-    window.scrollTo(-50, document.body.scrollHeight);
+    // window.scrollTo(-50, document.body.scrollHeight);
 });
