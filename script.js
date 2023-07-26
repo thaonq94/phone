@@ -40,3 +40,7 @@ $(document).ready(function () {
     $('.home-btn-wrapper').disableSelection();
   });
 });
+
+$( document ).ready(function() {
+    window.scrollTo(0, document.body.scrollHeight);
+});
